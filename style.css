@@ -1,0 +1,269 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar{
+    height: 40px ;
+    /*background-color: #f5ecd6 ;*/
+    color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    padding: 5px  7px;
+}
+
+.nav-logo{
+    height: 60px;
+    width: 60px;
+}
+
+.logo{
+    background-image: url("brand\ logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+
+}
+
+.border{
+    border: 2px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+
+}
+
+/** box2 **/
+.nav-search{
+    display:flex;
+    justify-content: space-between;
+    background-color: rgb(251, 249, 247);
+    width: 650px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.search-selector:hover{
+    background-color: #ffffff;
+    width: 50px;
+    display: flex;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none; 
+    align-items: center;
+
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgb(250, 248, 245);
+    color: #000000;
+
+}
+
+.nav-search:hover{
+    border: 2px solid rgb(222, 235, 235);
+}
+
+
+
+
+/** box3 **/
+
+span{
+    font-size: 0.7rem;
+    
+}
+
+.nav-second{
+    font-size: 0.85rem ;
+ 
+}
+
+
+/* box4 */
+
+.nav-cart i{
+    font-size: 30px;
+}
+
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: rgb(8, 8, 8);
+}
+
+/* panel */
+
+.panel{
+    height: 40px;
+    display: flex;
+    background-color: rgb(242, 242, 241);
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.panel-ops p{
+    display: inline;
+    margin-left: 25px;
+}
+
+.panel-ops{
+    width: 70%;
+    font-size: 0.95rem;
+    
+}
+
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 1000;
+}
+
+.panel-ops :hover{
+    border: 0.5px solid rgb(0, 0, 0);
+
+}
+
+/*.panel-all:hover{
+    border: 0.2px solid rgb(69, 107, 138);
+}*/
+/* main page */
+
+.pro{
+    background-image: url("pro2.jpg");
+    height: 600px;
+    background-size: cover;
+}*/
+
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(pre.jpg) ;
+    background-size: cover;
+}
+  
+
+
+body {
+
+    font-family: Arial, sans-serif;
+    background-color: #fffefe;
+    margin: 0;
+    
+    background-image: url(images/bbb.png);
+    height: 100px;
+    background-size: cover;
+    padding: 0;
+ }
+    .container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ } 
+ /*.container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: rgba(250, 248, 248, 0.7);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }*/
+
+
+ 
+
+
+
+
+ h2 {
+    text-align: center;
+    color: #151010;
+ }
+ input[type="text"],input[type="password"],
+ input[type="submit"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #f6f6f6;
+    border-radius: 3px;
+ }
+ .forgot-password,
+ .create-account {
+    text-align: center;
+ }
+
+
+
+
+
+ 
+
+ .container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ } 
+ 
+
+ .container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: rgba(246, 242, 235, 0.556) ;
+    border-radius: 5px;
+    box-shadow: 10 10 10px rgba(86, 77, 65, 0.1);
+ }
+ h2 {
+    text-align: center;
+    color: #000000;
+ }
+ input[type="text"],input[type="password"],
+ input[type="submit"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #dddada;
+    border-radius: 1px;
+ }
+ .forgot-password,
+ .create-account{
+    text-align: center;
+ }
+  
+
+h1{
+    display: inline-block;
+    margin: 0;
+    font-size: 100px;
+     background-color: #2f8d46;
+    background-image: url('Screenshot\ \(14\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}

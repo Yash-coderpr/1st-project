@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Global Solution</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet"  href="style.css">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 0px;
+    }
+    .container {
+      display: inline-flex;
+      align-items: center;
+      gap: 5px; /* Small gap between the dropdown and button */
+    }
+    select, button {
+      padding: 0.5px;
+      margin: 0.5px;
+      font-size: 25px;
+    }
+  </style>
+
+</head>
+<body>
+
+  <header>
+
+    <div class="navbar">
+      <div class="nav-logo  border" >
+        <div class="logo">
+          
+        </div>
+      </div>
+
+  <select id="search-sites">
+    <option value="https://www.codewithharry.com/">code with harry</option>
+    <option value="https://www.youtube.com/">youtube</option>
+    <option value="https://www.programiz.com/c-programming/online-compiler/">Programmiz</option>
+    <option value="https://docs.aws.amazon.com/opensearch-service/latest/developerguide/search-example.html">AWS OpenSearch Example</option>
+    <option value="https://github.com/">git hub</option>
+    <option value="none">none!</option>
+  </select>
+  <button onclick="openSite()">Go to Site</button>
+
+  <script>
+    function openSite() {
+      const site = document.getElementById('search-sites').value;
+      window.open(site, '_blank'); // Opens the selected site in a new tab
+    }
+  </script>
+    
+      <div class="nav-sign in ">
+       <p><span>Sign in</span></p>
+       <i class="fa-solid fa-user"></i>
+      </div>
+
+        <div class="nav-cart border ">
+          <i class="fa-solid fa-cart-shopping"></i>
+          Cart
+        </div>
+
+    </div>
+
+    <div class="panel">
+      <div class="panel-all">
+        <i class="fa-solid fa-house"></i>
+        <a href="work.html"><i class="fa-solid fa-bars"></i></a> ALL
+      </div>
+
+      <div class="panel-ops">
+        <h3>Courses:-</h3>
+        <p> <a href="know.html">About us</a>  </p>
+
+        <p><a href="python.html"> python</a></p>
+        <p>  <a href="c++.html"> c++</a></p>
+        <p>  <a href="c.html"> c</a></p>
+        
+        <p> <a href="Java.html"> Java</a> </p>
+        <p> <a href="SQL.html"> SQL</a> </p>
+        
+      </div>
+      <div class="panel-deals">
+        Get Our Best Discount 
+        <i class="fa-solid fa-percent"></i>
+      </div>
+
+    </div>
+    
+  </header>
+  
+  <div class="pro">
+    <br>
+    <br>
+    <div>
+      <h1><small><i>Global Solutions</i></small></h1>
+    </div>
+    <div class="container">
+      <h2>Login</h2>
+      <form action="#" method="post">
+         <input type="text" name="username" placeholder="Username" required>
+         <input type="password" name="password" placeholder="Password" required>
+         <input type="submit" value="Login">
+      </form>
+      <div class="forgot-password">
+         <a href="forgot.html">Forgot Password?</a>
+      </div>
+      <div class="create-account">
+         <p>Don't have an account? <a href="signin.html">Create an Account</a></p>
+      </div>
+   </div>
+
+  </div>
+</body>
+</html>
+<script src="js/back.js"></script>
+</body>
+</html>

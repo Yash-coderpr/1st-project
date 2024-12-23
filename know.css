@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    font-family: Arial;
+    border: border-box;
+}
+
+
+
+body {
+    background-image: url('pre.jpg'); 
+    background-repeat: no-repeat;         
+    background-size: 100%;                
+    background-position: center;
+    background-color: rgb(235, 225, 214);
+  }
+
+
